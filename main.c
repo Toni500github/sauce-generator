@@ -9,8 +9,8 @@ int main (int argc, char *argv[])
   int max = 405238;
   srand(time(0));
 
-  printf("%s\n", "printing random sauce, press CTRL+C to stop");
-  //DISCLAIMER: SOME NUMBERS ARE DANGEROUS, JUST CLOSE THESE IMMEDIATLY BY CTRL+W ON BROWSER
+  puts("printing random sauce, press CTRL+C to stop");
+  puts("probably will generate a number twice");
     sleep(2);
   
     while (1) {
